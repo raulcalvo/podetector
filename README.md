@@ -1,14 +1,14 @@
 # podetector
 Power outage detector to turn off home assistant devices when power is restored
-
+s
 Podetector is a Node JS service that turn off home assistant's lights/switches after a power outage.
 
 How it works:
-Every X secons the software wakes up and check how much time passed since the last wake up. 
-Power outage is detected if this time exceeds X secons ( with a "variance").
-If power outage is detected podetector sends http requests to turn off home assistant's devices.
+1. Every X secons the software wakes up and check how much time passed since the last wake up. 
+2. Power outage is detected if this time exceeds X secons ( with a "variance").
+3. If power outage is detected podetector sends http requests to turn off home assistant's devices.
 
-Podetector also expose a REST api.
+Podetector also exposes a REST api.
 
 Setup:
 There are a few variables you must setup. You can modify the default ones in the top of index.js file or you can set certain environment variables:
