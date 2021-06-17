@@ -19,7 +19,11 @@ There are a few variables you must setup. You can modify the default ones in the
 - VARIANCE: Allowed time variance
 
 Use:
-You can access to http://127.0.0.1:PORT/api to use the rest API.
+1. Clone: git clone https://github.com/raulcalvo/podetector
+2. Install modules: npm install
+3. Run: node index.js
+
+Now you can access to http://127.0.0.1:PORT/api to use the rest API.
 
 [WIP]
 
