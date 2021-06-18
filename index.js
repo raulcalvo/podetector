@@ -230,7 +230,7 @@ jsonPath = {
     "params": [{
         name: "deviceIds",
         type: "string",
-        maxLength: 60,
+        maxLength: 1024,
         placeholder: "Comma separated devices id"
     }],
     "result": {
