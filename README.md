@@ -1,6 +1,6 @@
 # podetector
 
-<h2>Introduction:</h2><br>
+<h2>Introduction:</h2>
 Podetector is a software focused in solving a very specific problem in a very specific scenario.<br>
 The proglem is: After a power outage, when power is restored, some "domotic" devices (mostly lights) don't remember their  previous status, so they turn on, even if the were off previously.<br>
 For example:<br>
@@ -36,7 +36,7 @@ There are a few variables you must setup. You can modify the default ones in the
 - CHECK_SECONDS: Time between "wake ups"<br>
 - VARIANCE: Allowed time variance<br>
 
-<h2>Use:</h2><br>
+<h2>Use:</h2>
 1. Clone: git clone https://github.com/raulcalvo/podetector<br>
 2. Install modules: npm install<br>
 3. Run: node index.js<br>
