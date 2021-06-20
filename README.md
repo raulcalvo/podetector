@@ -6,7 +6,7 @@ The proglem is: After a power outage, when power is restored, some "domotic" dev
 For example:<br>
 - You turn off the lights using "Ok google, turn off the lights", when you go to sleep.<br>
 - While sleeping there is a power outage and the power is restored after a few minutes.<br>
-- When lights have power again, they don't remember that they where off, so they turn on.<br>
+- When lights have power again, they don't remember that they were off, so they turn on.<br>
 - When you wake up, the lights have been on for the whole night :-(<br>
 
 <h3>The scenario:</h3>
