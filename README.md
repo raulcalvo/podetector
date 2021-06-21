@@ -1,4 +1,4 @@
-# podetector
+# Podetector
 
 <h2>Introduction:</h2>
 Podetector is a software focused in solving a very specific problem in a very specific scenario.<br>
@@ -37,15 +37,19 @@ There are a few variables you must setup. You can modify the default ones in the
 - VARIANCE: Allowed time variance<br>
 
 <h2>Use:</h2>
+You can use Podetector as Node JS software or using docker (recomended)<br>
+<h3>Using as Node JS software:</h3>
 1. Clone: git clone https://github.com/raulcalvo/podetector<br>
 2. Move to podetector folder: cd podetector
 3. Install modules: npm install<br>
 4. Run: node index.js<br>
-
+<br>
 Now you can access to http://127.0.0.1:PORT/api to use the rest API.<br>
-
+<h3>Using with docker:</h3>
+Run:<br>
+<code>docker run -d -p 9999:9999 -e "HA_URL=https://myhomeassistant.com" -e "HA_TOKEN=xxxxx" -e "PORT=9999" -e "CHECK_SECONDS=60" -e "VARIANCE=10" --name pod raulcalvo/podetector:latest</code><br>
+<br>
+Now you can access to http://127.0.0.1:9999/api to use the rest API.<br>
+<br>
+<br>
 There are a few API calls you can use and they are explained in the /api endpoint.
-
-<h2>Using with docker</h2>
-To use podetector in a docker container you can go to Docker-hub page to have more information:<br>
-<a href="https://hub.docker.com/r/raulcalvo/podetector">Podetector in Docker-hub</a>
